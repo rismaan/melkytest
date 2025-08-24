@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ onTestDriveClick }) => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-white flex items-center">
             <img src={LOGO_URL} alt="Suzuki Logo" className="h-8 w-auto mr-3" />
-            <span className="text-gray-200 text-xl">SUZUKI Promo</span>
+            <span className="text-gray-200 text-xl">SUZUKI PROMO</span>
         </a>
         <button 
             onClick={onTestDriveClick}
